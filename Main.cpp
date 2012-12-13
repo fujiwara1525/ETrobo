@@ -141,7 +141,7 @@ extern "C" TASK(TaskMain){
 				break;
 			}
 		
-			// 4msecウェイトするよ
+			// 4msecウェイトする
 			systick_wait_ms(4);
 		}
 		
